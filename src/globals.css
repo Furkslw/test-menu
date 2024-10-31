@@ -1,0 +1,24 @@
+/* global.css veya styles.css dosyanız */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff; /* Açık tema için arka plan beyaz */
+  --foreground: #171717; /* Açık tema için yazı rengi koyu siyah */
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a; /* Koyu tema için arka plan siyah */
+    --foreground: #ededed; /* Koyu tema için yazı rengi beyaz */
+  }
+}
+
+/* Tüm sayfa arka planı ve metin renklerini varsayılan olarak ayarlayın */
+body {
+  color: var(--foreground);
+  background-color: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
