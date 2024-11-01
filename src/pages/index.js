@@ -10,7 +10,7 @@ import { sauces, foodItems, drinks } from '../data/menuData';
 
 export default function Home() {
   return (
-    <>
+    <div className='w-full overflow-hidden'>
       <MenuHeader />
       <div className="bg-white font-sans px-6">
         {/* Sos Seçenekleri Bölümü */}
@@ -41,6 +41,6 @@ export default function Home() {
           </div>
         </MenuSection>
       </div>
-    </>
+    </div>
   );
 }
