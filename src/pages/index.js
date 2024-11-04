@@ -26,7 +26,7 @@ export default function Home() {
         <AdSense clientId="ca-pub-1234567890" slotId="1234567890" />
 
         {/* Dönerler Bölümü */}
-        <MenuSection title="Dönerler">
+        <MenuSection title="Yiyecekler">
           {foodItems.map((item) => (
             <MenuItem key={item.title} {...item} />
           ))}
