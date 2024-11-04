@@ -7,7 +7,7 @@ export default function MenuItem({ title, img, sizes }) {
         <img src={img} alt={title} className="w-full h-auto  bg-cover rounded" />
       </div>
       <div className="flex-1 px-4 w-full">
-        <h3 className="text-lg font-semibold text-gray-800 mb-1">{title}</h3>
+        <h3 className="text-lg font-semibold text-black mb-1">{title}</h3>
  
         <ul className="text-sm text-gray-500 space-y-1 w-full">
           {sizes.map((size, index) => (
