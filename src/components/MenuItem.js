@@ -1,5 +1,5 @@
 // components/MenuItem.js
-export default function MenuItem({ title, img, description, sizes }) {
+export default function MenuItem({ title, img, sizes }) {
 
   return (
     <div className="flex flex-col md:flex-row justify-between items-start border-b border-gray-200 py-3 w-full">
