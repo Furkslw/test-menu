@@ -23,14 +23,14 @@ export const foodItems = [
 ];
 
 export const drinks = [
-  { name: 'Coca Cola', img: '/images/drinks/coca-cola.jpg', price: 30 },
+  { name: 'Coca Cola', img: '/images/drinks/coca-cola.png', price: 30 },
   { name: 'Ayran', img: '/images/drinks/ayran.jpg', price: 20 },
-  { name: 'Cappy', img: '/images/drinks/cappy.jpg', price: 30 },
-  { name: 'Fanta', img: '/images/drinks/fanta.jpg', price: 30 },
-  { name: 'Sprite', img: '/images/drinks/sprite.jpg', price: 30 },
+  { name: 'Cappy', img: '/images/drinks/cappy.png', price: 30 },
+  { name: 'Fanta', img: '/images/drinks/fanta.png', price: 30 },
+  { name: 'Sprite', img: '/images/drinks/sprite.png', price: 30 },
   { name: 'Fuse tea', img: '/images/drinks/fuse-tea.jpg', price: 30 },
-  { name: 'Niğde Gazozu', img: '/images/drinks/nigde-gazozu.jpg', price: 22 },
-  { name: 'Şalgam', img: '/images/drinks/salgam.jpg', price: 22 },
+  { name: 'Niğde Gazozu', img: '/images/drinks/nigde-gazozu.png', price: 22 },
+  { name: 'Şalgam', img: '/images/drinks/salgam.png', price: 22 },
   { name: 'Soda', img: '/images/drinks/soda.jpg', price: 15 },
   { name: 'Fesleğenli Ayran', img: '/images/drinks/feslegen-ayran.jpg', price: 22 },
   { name: 'Su', img: '/images/drinks/su.jpg', price: 20 },
