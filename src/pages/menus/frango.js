@@ -1,14 +1,14 @@
 // pages/index.js
-import MenuHeader from '../components/MenuHeader';
-import SauceOption from '../components/SauceOption';
-import MenuItem from '../components/MenuItem';
-import DrinkItem from '../components/DrinkItem';
-import MenuSection from '../components/MenuSection';
-import AdSense from '../components/AdSense';
+import MenuHeader from '@/components/MenuHeader';
+import SauceOption from '@/components/SauceOption';
+import MenuItem from '@/components/MenuItem';
+import DrinkItem from '@/components/DrinkItem';
+import MenuSection from '@/components/MenuSection';
+import AdSense from '@/components/AdSense';
 
-import { sauces, foodItems, drinks } from '../data/menuData';
+import { sauces, foodItems, drinks } from '@/data/menuData';
 
-export default function Home() {
+export default function Frango() {
   return (
     <div className='w-full overflow-hidden'>
       <MenuHeader />
@@ -29,6 +29,7 @@ export default function Home() {
         <MenuSection title="Yiyecekler">
           {foodItems.map((item) => (
             <MenuItem key={item.title} {...item} />
+            
           ))}
         </MenuSection>
 
