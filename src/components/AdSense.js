@@ -12,7 +12,7 @@ export default function AdSense({ clientId, slotId, style = {}, format = 'auto' 
   }, [clientId, slotId]);
 
   return (
-    <div className="flex justify-center my-6 bg-black" style={{ width: '100%' }}>
+    <div className="flex justify-center my-6 " style={{ width: '100%' }}>
       <ins
         className="adsbygoogle"
         style={{ display: 'block', width: '100%', maxWidth: '728px', height: '90px', ...style }}
